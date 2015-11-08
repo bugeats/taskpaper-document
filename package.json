@@ -1,0 +1,39 @@
+{
+  "name": "taskpaper-document",
+  "version": "0.0.1",
+  "description": "Taskpaper document parser and builder",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node doc/build.js",
+    "lint": "eslint test/**/**/**/*.js lib/**/**/**/*.js",
+    "test": "tape test/**/**/**/*.test.js lib/**/**/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugeats/taskpaper-document.git"
+  },
+  "keywords": [
+    "taskpaper",
+    "parser",
+    "lexer",
+    "builder",
+    "todos",
+    "tasks",
+    "document"
+  ],
+  "author": "Chadwick Dahlquist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bugeats/taskpaper-document/issues"
+  },
+  "homepage": "https://github.com/bugeats/taskpaper-document#readme",
+  "devDependencies": {
+    "eslint": "^2.5.3",
+    "handlebars": "^4.0.5",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {}
+}
